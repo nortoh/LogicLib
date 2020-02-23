@@ -4,12 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
- * Move from lists to sets. It will be way better
- *
- * 
- * To check if there is no new resolvants, at the end of every run, check to see if theres at least one match
- * if no new matches are found, no new resolvants can be made
  * 
  * @author Christian
  */
@@ -154,8 +148,7 @@ public class LogicalResolution {
     }
 
     /**
-     * TODO: This is doing linear search, maying do a better search
-     * 
+     * TODO: This is doing linear search, maybe do a better search
      * 
      * @param matchSymbol
      * @return 
@@ -245,8 +238,7 @@ public class LogicalResolution {
             }
         }
     }
-    
-    
+       
     public String printResolvant(List resolvant) {
         String output = "{";
 
@@ -281,5 +273,4 @@ public class LogicalResolution {
         output += "}";
         System.out.println(output);
     }
-
 }
