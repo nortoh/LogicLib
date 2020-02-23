@@ -6,7 +6,7 @@ expression = "(P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S)";
 
 # Output
 ```
-(P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S) is false<br />
+(P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S) is false
 
 {{~S}, {~Q}, {P, R}, {Q, ~R}, {~P, G}, {S, ~G}}
 [0] Replacing {Q, ~R} and {~Q} with {~R}
