@@ -5,6 +5,7 @@ Truth value calculator with built-in resolution algorithm.
 expression = "(P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S)";
 
 # Output
+```
 (P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S) is false<br />
 
 {{~S}, {~Q}, {P, R}, {Q, ~R}, {~P, G}, {S, ~G}}<br />
@@ -19,3 +20,4 @@ expression = "(P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S)";
 [4] Replacing {~G} and {G} with ? <br />
 {?}<br />
 Empty clause found!<br />
+```
