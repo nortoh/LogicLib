@@ -2,9 +2,17 @@
 Truth value calculator with built-in resolution algorithm.
 
 # Example
-expression = "(P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S)";
+Take the expresssion (P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S) for example,
+and compute the truth value for the following boolean map:
+P -> FALSE
+Q -> FALSE
+G -> FALSE
+R -> TRUE
+S -> TRUE
 
-# Output
+... then compute the resolution method.
+
+# Example Output
 ```
 (P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S) is false
 
