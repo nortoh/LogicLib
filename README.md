@@ -2,14 +2,36 @@
 Truth value calculator with built-in resolution algorithm.
 
 # Legal Logic Operators
-```
-Conjuction - &
-Disjunction - +
-Negation - ~
-Exclusive-Or - #
-Implication - >
-Biconditional - =
-```
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Symbol</th>
+  </tr>
+  <tr>
+    <td>Disjunction</td>
+    <td>&</td>
+  </tr>
+  <tr>
+    <td>Negation</td>
+    <td>+</td>
+  </tr>
+  <tr>
+    <td>Exclusive-Or</td>
+    <td>&</td>
+  </tr>
+  <tr>
+    <td>Conjuction</td>
+    <td>#</td>
+  </tr>
+  <tr>
+    <td>Implication</td>
+    <td>></td>
+  </tr>
+  <tr>
+    <td>Biconditional</td>
+    <td>=</td>
+  </tr>
+</table>
 
 # Example
 Take the expresssion ```(P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S)``` for example,
