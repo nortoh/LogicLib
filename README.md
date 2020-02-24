@@ -1,6 +1,16 @@
 # LogicLib
 Truth value calculator with built-in resolution algorithm.
 
+# Legal Logic Operators
+```
+Conjuction - &
+Disjunction - +
+Negation - ~
+Exclusive-Or - #
+Implication - >
+Biconditional - =
+```
+
 # Example
 Take the expresssion ```(P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S)``` for example,
 and compute the truth value for the following boolean map:
