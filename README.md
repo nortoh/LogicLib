@@ -1,4 +1,4 @@
-# LogicLib
+# logicLib
 Truth value calculator with built-in resolution algorithm.
 
 # Legal Logic Operators
