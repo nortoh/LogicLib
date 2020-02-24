@@ -9,19 +9,19 @@ Truth value calculator with built-in resolution algorithm.
     <th>Symbol</th>
   </tr>
   <tr>
-    <td>Disjunction</td>
+    <td>Conjunction</td>
     <td>&</td>
   </tr>
   <tr>
-    <td>Negation</td>
+    <td>Disjunction</td>
     <td>+</td>
   </tr>
   <tr>
-    <td>Exclusive-Or</td>
-    <td>&</td>
+    <td>Negation</td>
+    <td>~</td>
   </tr>
   <tr>
-    <td>Conjuction</td>
+    <td>Exclusive-Or</td>
     <td>#</td>
   </tr>
   <tr>
