@@ -2,6 +2,7 @@
 Truth value calculator with built-in resolution algorithm.
 
 # Legal Logic Operators
+<p>These are the following operators that are supported:</p>
 <table>
   <tr>
     <th>Type</th>
