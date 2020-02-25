@@ -46,6 +46,30 @@ S -> TRUE
 ```
 ... then compute the resolution method.
 
+# Example Code
+```
+/* expression */
+String expression = "(P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S)";
+
+/* set the proposition values */
+Map<Character, Boolean> truthValues = new HashMap<>();        
+truthValues.put('P', false);
+truthValues.put('Q', false);
+truthValues.put('G', false);
+truthValues.put('R', true);
+truthValues.put('S', true);
+
+/* create a new logical formula from the expression */
+LogicalFormula formula = new LogicalFormula(expression);
+
+/* calculate the truth value */
+formula.calculate(truthValues);
+System.out.println(formula.getExpression() + " is " + formula.getTruthValue());
+
+/* execute the resolution method */
+new LogicalResolution(formula).execute();
+```
+
 # Example Output
 ```
 (P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S) is false
