@@ -54,7 +54,7 @@ S -> TRUE
 ... then compute the resolution method.
 
 # Example Code
-```
+```java
 /* expression */
 String expression = "(P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S)";
 
