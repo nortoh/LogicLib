@@ -89,7 +89,8 @@ Empty clause found!
 ```
 # Bugs
 <ul>
-  <li>Resolution method does not break when an empty clause is not found</li>
+  <li>Resolution method does not break when an empty clause is not found.</li>
+  <li><b>Note:</b> This library is still under development. Please report any issues here.</li>
 </ul>
 
 # License
