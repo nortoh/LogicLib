@@ -34,6 +34,13 @@ Truth value calculator with built-in resolution algorithm.
   </tr>
 </table>
 
+# Syntax
+When creating an expression, the library only accepts a specific format.
+<ul>
+  <li>All propositions, whether single or not, must be contained in <i>parentheses</i>. <b>Ex:</b>(A & B) + (C)</li>
+  <li>External negations are not yet available. Please convert with De Morgan's. <b>Ex:</b> ~(A + B) -> (~A & ~B)</li>
+</ul>
+
 # Example
 Take the expresssion ```(P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S)``` for example,
 and compute the truth value for the following boolean map:
