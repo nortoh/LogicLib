@@ -78,7 +78,7 @@ new LogicalResolution(formula).execute();
 ```
 
 # Example Output
-```
+```ShellSession
 (P + R) & (Q + ~R) & (~Q) & (~P + G) & (S + ~G) & (~S) is false
 
 {{~S}, {~Q}, {P, R}, {Q, ~R}, {~P, G}, {S, ~G}}
