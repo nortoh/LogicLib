@@ -73,6 +73,8 @@ LogicalFormula formula = new LogicalFormula(expression);
 formula.calculate(truthValues);
 System.out.println(formula.getExpression() + " is " + formula.getTruthValue());
 
+System.out.println();
+
 /* execute the resolution method */
 new LogicalResolution(formula).execute();
 ```
